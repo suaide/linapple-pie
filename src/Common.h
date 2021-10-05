@@ -40,7 +40,7 @@ enum AppMode_e
 
 #define  SPEED_MIN         0
 #define  SPEED_NORMAL      10
-#define  SPEED_MAX         40
+#define  SPEED_MAX         100
 
 #define  DRAW_BACKGROUND   1
 #define  DRAW_LEDS         2
@@ -55,11 +55,13 @@ enum AppMode_e
 #define  BTN_DRIVESWAP     4
 #define  BTN_FULLSCR       5
 #define  BTN_DEBUG         6
+#define  BTN_SPEED         6
 #define  BTN_SETUP         7
 #define  BTN_CYCLE         8
 #define  BTN_QUIT          9
 #define  BTN_SAVEST        10
 #define  BTN_LOADST        11
+
 
 //#define	MAXIMAGES          16
 

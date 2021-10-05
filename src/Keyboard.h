@@ -3,7 +3,6 @@
 extern bool   g_bShiftKey;
 extern bool   g_bCtrlKey;
 extern bool   g_bAltKey;
-//extern bool   g_bCapsLock;
 
 void    ClipboardInitiatePaste();
 
@@ -17,6 +16,8 @@ BYTE    KeybGetKeycode ();
 DWORD   KeybGetNumQueries ();
 void    KeybQueueKeypress (int,BOOL);
 void    KeybToggleCapsLock ();
+void    KeybCapsLockOn();
+void    KeybCapsLockOff();
 DWORD   KeybGetSnapshot(SS_IO_Keyboard* pSS);
 DWORD   KeybSetSnapshot(SS_IO_Keyboard* pSS);
 

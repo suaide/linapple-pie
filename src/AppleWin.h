@@ -27,10 +27,6 @@ extern DWORD      cyclenum;
 extern DWORD      emulmsec;
 extern bool       g_bFullSpeed;
 
-// Win32
-//extern HINSTANCE  g_hInstance;
-
-
 extern AppMode_e g_nAppMode;
 
 extern UINT g_ScreenWidth;
@@ -47,12 +43,9 @@ extern TCHAR     g_sFTPLocalDir[MAX_PATH]; // FTP Local Dir, see linapple.conf f
 extern TCHAR     g_sFTPServer[MAX_PATH]; // full path to default FTP server
 extern TCHAR     g_sFTPServerHDD[MAX_PATH]; // full path to default FTP server
 
-//extern TCHAR     g_sFTPUser[256]; // user name
-//extern TCHAR     g_sFTPPass[256]; // password
 extern TCHAR     g_sFTPUserPass[512]; // full login line
 
 extern CURL *	 g_curl;
-
 
 extern bool       g_bResetTiming;
 extern BOOL       restart;
